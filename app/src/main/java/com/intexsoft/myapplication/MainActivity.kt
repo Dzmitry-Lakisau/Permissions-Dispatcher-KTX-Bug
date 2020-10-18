@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Environment
 import android.provider.MediaStore
-import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import permissions.dispatcher.NeedsPermission
 import permissions.dispatcher.RuntimePermissions
@@ -39,8 +38,6 @@ class MainActivity : AppCompatActivity() {
 	@NeedsPermission(Manifest.permission.READ_EXTERNAL_STORAGE)
 	fun openFileManager() {
 		val intent = Intent().setAction(Intent.ACTION_GET_CONTENT)
-//				.setType(getMimeTypes()[0])
-//				.putExtra(Intent.EXTRA_MIME_TYPES, getMimeTypes())
 		startActivityForResult(Intent.createChooser(intent, "Choose file"), 2)
 	}
 }
