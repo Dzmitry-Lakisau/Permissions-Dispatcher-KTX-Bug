@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/blueBayoux</color>
+    <color name="colorPrimaryDark">@color/blueBayouxDark</color>
+    <color name="colorOnPrimary">@color/white</color>
+    <color name="colorAccent">@color/blueBayoux</color>
+
+    <color name="white">@android:color/white</color>
+
+    <color name="blueBayoux">#546486</color>
+    <color name="blueBayouxDark">#404E69</color>
+    <color name="blueHawkes">#DCE0F0</color>
+    <color name="blueLight">#F2F4FA</color>
+    <color name="grey">#9B9B9B</color>
+    <color name="grayDark">#8F8F8F</color>
+    <color name="greyLight">#DFE4F2</color>
+    <color name="greyLight2">#E7E7E7</color>
+    <color name="greyLight3">#F9F9F9</color>
+    <color name="greyLight4">#DADADA</color>
+    <color name="orange">#E45F21</color>
+    <color name="orange_disable">#99E45F21</color>
+    <color name="red">#E81123</color>
+    <color name="textLightBlack">#555555</color>
+    <color name="bronze">#AD8E68</color>
+    <color name="silver">#9EA8BC</color>
+    <color name="gold">#FCCE4F</color>
+    <color name="platin">#FCFCFC</color>
+    <color name="grayYellow">#E9C65B</color>
+    <color name="grayLightHint">#80FFFFFF</color>
+</resources>
